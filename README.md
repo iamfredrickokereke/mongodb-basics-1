@@ -4,3 +4,6 @@
 
 ### 2.mongodb database connection
 <img src="images/database_by_Sahmie.png" height="500px" width="500px">
+
+### 3.interns collection
+<img src="images/interns_collection.png" height="500px" width="500px">
