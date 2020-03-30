@@ -1,2 +1,2 @@
 # mongodb-basics
-Mongodb basic database creation
+<img src="images/mongod_server.png">
