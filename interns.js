@@ -8,13 +8,17 @@ let movieList = [
   {movie: "First Cow", year: "2020", rating: 6.5}
 ];
 
-MongoClient.connect(url, (err, db) => {
+
+const collections = function(err, db) {
   if (err) throw err;
   let dbo = db.db("moviesdb");
-   dbo.collection("myMovies").insertMany(movieList, (err, result) => {
+  let movieCollections = dbo.collection("myMovies")
+  movieCollections.insertMany(movieList, (err, result) => {
     if (err) throw err;
     console.log(result);
     db.close();
   });
-})
+};
 
+MongoClient.connect(url, collections);
+module.exports = collections;
