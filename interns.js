@@ -21,4 +21,4 @@ const collections = function(err, db) {
 };
 
 MongoClient.connect(url, collections);
-module.exports = collections;
+// module.exports = collections;
