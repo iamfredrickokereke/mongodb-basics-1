@@ -10,3 +10,6 @@
 
 ### (c) Use a projection object to return only movie titles and nothing else. 
 <img src="images/movie_title.png">
+
+### 3. Update the movie with title "The Banker", to any movie of your choice
+<img src="images/update_movie.png">
